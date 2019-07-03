@@ -1,0 +1,609 @@
+html {
+    background-attachment: fixed;
+    background-image: url('../../images/bg.png');
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* boxes */
+.hsm-box {
+    padding: 0 3.5rem;
+    min-height: 100%;
+    height: 100%;
+}
+.hsm-box > .container {
+    min-height: 100%;
+    height: 100%;
+    max-width: 1024px;
+}
+
+.hsm-box .box-1 {
+    padding: 0 0 59px 0;
+    background: url('../../images/v-amarelo.png') no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.hsm-box .box-1 .container {
+    height: 800px;
+}
+
+.hsm-box .box-1 .hero-body {
+    padding: 0;
+    position: relative;
+}
+
+.hsm-box .box-1 .container .titulo-bg {
+    display: block;
+    position: absolute;
+    background: url('../../images/titulo-hsm.png');
+    background-size: contain;
+    width: 20%;
+    height: 10%;
+    background-repeat: no-repeat;
+    left: 3%;
+    top: 5%;
+}
+
+.hsm-box .box-1 .container .frase-bg {
+    display: block;
+    position: absolute;
+    background: url('../../images/frase-hsm.png');
+    background-size: contain;
+    width: 70%;
+    height: 20%;
+    background-repeat: no-repeat;
+    left: 25%;
+    top: 20%;
+}
+
+.hsm-box .box-1 .container .triangulo-1-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/triangulo-1.png);
+    background-size: contain;
+    width: 28%;
+    height: 55%;
+    background-repeat: no-repeat;
+    left: 50.5%;
+    top: 39%;
+}
+
+.hsm-box .box-1 .container .triangulo-2-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/triangulo-2.png);
+    background-size: contain;
+    width: 28%;
+    height: 55%;
+    background-repeat: no-repeat;
+    left: 21.5%;
+    top: 39%;
+}
+
+.hsm-box .box-1 .container .triangulo-3-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/triangulo-3.png);
+    background-size: contain;
+    width: 55%;
+    height: 21%;
+    background-repeat: no-repeat;
+    left: 22.5%;
+    top: 70%;
+}
+
+.hsm-box .box-1 .container .frase-1-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/rentabilidade.png);
+    background-size: contain;
+    width: 40%;
+    height: 14%;
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 52%;
+}
+
+.hsm-box .box-1 .container .frase-2-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/sustentabilidade.png);
+    background-size: contain;
+    width: 50%;
+    height: 15%;
+    background-repeat: no-repeat;
+    left: 10.5%;
+    top: 78.5%;
+}
+
+.hsm-box .box-1 .container .frase-3-bg {
+    display: block;
+    position: absolute;
+    background: url(../../images/geracao.png);
+    background-size: contain;
+    width: 32%;
+    height: 21%;
+    background-repeat: no-repeat;
+    right: 8%;
+    top: 55%;
+}
+
+.hsm-box .box-2 .hero-body {
+    background: url('../../images/CachedTexturedBitmap_2.png');
+    background-position: center center;
+}
+
+.hsm-box .box-2 .conteudo {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.hsm-box .box-2 .conteudo .linhas-bg {
+    background: url(../../images/hsm-box-2-linha-bg.png) left top no-repeat;
+    background-size: cover;
+    width: 65px;
+    min-height: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
+
+.hsm-box .box-2 .conteudo .n1-bg,
+.hsm-box .box-2 .conteudo .n2-bg,
+.hsm-box .box-2 .conteudo .n3-bg {
+    background: url(../../images/1.png) left top no-repeat;
+    background-size: contain;
+    width: 15%;
+    height: 15%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 4%;
+}
+
+.hsm-box .box-2 .conteudo .n1-bg {
+    background: url(../../images/1.png) left top no-repeat;
+    background-size: contain;
+    top: 4%;
+}
+
+.hsm-box .box-2 .conteudo .n2-bg {
+    background: url(../../images/2.png) left top no-repeat;
+    background-size: contain;
+    top:45%;
+}
+
+.hsm-box .box-2 .conteudo .n3-bg {
+    background: url(../../images/3.png) left top no-repeat;
+    background-size: contain;
+    top: 81%;
+    left: 4%;}
+
+.hsm-box .box-2 .conteudo .seta1-bg,
+.hsm-box .box-2 .conteudo .seta2-bg {
+    background: url(../../images/1.png) left top no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 15%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
+
+.hsm-box .box-2 .conteudo .seta1-bg {
+    background: url(../../images/seta.png) left top no-repeat;
+    background-size: contain;
+    top: 20%;
+}
+
+.hsm-box .box-2 .conteudo .seta2-bg {
+    background: url(../../images/seta.png) left top no-repeat;
+    background-size: contain;
+    top:67%;
+}
+
+.hsm-box .box-2 .conteudo .frase-1-bg,
+.hsm-box .box-2 .conteudo .frase-2-bg,
+.hsm-box .box-2 .conteudo .frase-3-bg
+{
+    display: block;
+    position: absolute;
+}
+
+.hsm-box .box-2 .conteudo .frase-1-bg
+{
+    background: url(../../images/frase-1.png) left top no-repeat;
+    top: 6%;
+    width: 45%;
+    height: 11%;
+    left: 13%;
+    background-size: contain;
+}
+
+.hsm-box .box-2 .conteudo .frase-2-bg
+{
+    background: url(../../images/frase-2.png) left top no-repeat;
+    top: 47%;
+    width: 30%;
+    height: 12%;
+    left: 13%;
+    background-size: contain;
+}
+
+.hsm-box .box-2 .conteudo .frase-3-bg
+{
+    background: url(../../images/frase-3.png) left top no-repeat;
+    top: 83%;
+    width: 45%;
+    height: 13%;
+    left: 13%;
+    background-size: contain;
+}
+
+.hsm-box .box-2 .conteudo .icone-1-bg,
+.hsm-box .box-2 .conteudo .icone-2-bg,
+.hsm-box .box-2 .conteudo .icone-3-bg
+{
+    display: block;
+    position: absolute;
+}
+
+.hsm-box .box-2 .conteudo .icone-1-bg {
+    background: url(../../images/icone1.png) left top no-repeat;
+    top: 70%;
+    width: 150px;
+    height: 150px;
+    right: 10%;
+    background-size: contain;
+}
+
+.hsm-box .box-2 .conteudo .icone-2-bg {
+    background: url(../../images/icone-2.png) left top no-repeat;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    right: 10%;
+    background-size: contain;
+}
+
+.hsm-box .box-2 .conteudo .icone-3-bg {
+    background: url(../../images/icone-3.png) left top no-repeat;
+    top: 35%;
+    width: 150px;
+    height: 150px;
+    right: 10%;
+    background-size: contain;
+}
+
+.hsm-box .box-3 {
+    background-color: #fd4154;
+    background-image: url('../../images/bg-box-3.png');
+    background-position-x: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hsm-box .box-3 .container {
+    height: 900px;
+}
+
+.hsm-box .box-3 .hero-body {
+    padding: 0;
+    position: relative;
+}
+
+.hsm-box .box-3 .titulo {
+    position: absolute;
+    top: 6%;
+    width: 90%;
+    left: 6%;
+    /* margin-left: -12%; */
+}
+
+.hsm-box .box-3 .rodape {
+    position: absolute;
+    bottom: 8%;
+    width: 75%;
+    left: 25%;
+    margin-left: -12%;
+}
+
+.hsm-box .box-3 .container::after {
+    content: ' ';
+    display: block;
+}
+
+.hsm-box .box-4 {
+    background-image: url('../../images/bg-box04.png');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hsm-box .box-4 .container {
+    height: 500px;
+}
+
+.hsm-box .box-4 .hero-body {
+    padding: 0;
+}
+
+.hsm-box .box-4 .titulo {
+    position: absolute;
+    top: 12%;
+    width: 85%;
+    left: 8%;
+    /* margin-left: -12%; */
+}
+
+.hsm-box .box-4 .rodape {
+    position: absolute;
+    bottom: 11%;
+    width: 50%;
+    right: 8%;
+    /* margin-left: -12%; */
+}
+
+.hsm-box .box-5 {
+    background-image: url('../../images/bg-box-5.png');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hsm-box .box-5 .container {
+    height: 787px;
+}
+
+.hsm-box .box-5 .hero-body {
+    padding: 0;
+}
+
+.hsm-box .box-5 .rodape {
+    position: absolute;
+    bottom: 14%;
+    width: 85%;
+    left: 14%;
+    margin-left: -7%;
+}
+
+.hsm-box .box-5 .icone-1 {
+    position: absolute;
+    top: 43%;
+    width: 16%;
+    right: 15%;
+}
+
+.hsm-box .box-5 .icone-2 {
+    position: absolute;
+    top: 43%;
+    width: 16%;
+    left: 15%;
+}
+
+.hsm-box .box-5 .icone-3 {
+    position: absolute;
+    top: 45%;
+    width: 16%;
+    left: 32%;
+}
+
+.hsm-box .box-5 .icone-4 {
+    position: absolute;
+    top: 45%;
+    width: 16%;
+    right: 33%;
+}
+/* fim boxes */
+
+.hsm-sombra-left,.hsm-sombra-right {
+    background-image: url('../../images/sombra.png');
+    background-repeat: repeat-y;
+    background-origin: content-box;
+    background-clip: border-box;
+    width: 25px;
+    min-height: 100%;
+    height: 100%;
+    float: left;
+}
+
+.hsm-sombra-right {
+    float: right;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#conteudo {
+    height: 100%;
+    background-image: url('../../images/Biblioteca_atlas_2.png');
+    margin:0 25px;
+}
+
+@media (min-width:1025px) {
+    .hsm-box .box-4 .container{
+        height: 569px;
+    }
+
+    .hsm-box .box-5 .container {
+        min-height: 895px;
+        height: 895px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .hsm-box .box-1 .container {
+        height: 548px;
+    }
+
+    .hsm-box { 
+        padding: 0;
+    }
+    .hsm-box > .container {
+        width: 912px;
+    }
+
+    .hsm-box .box-4 .container{
+        height: 503px;
+    }
+
+    .hsm-box .box-5 .container {
+        min-height: 790px;
+        height: 790px;
+    }
+
+    .hsm-box .box-1 .container .triangulo-1-bg {
+        width: 28%;
+        height: 44%;
+        left: 50.5%;
+        top: 39%;
+    }
+    
+    .hsm-box .box-1 .container .triangulo-2-bg {
+        width: 28%;
+        height: 45%;
+        left: 27.5%;
+        top: 39%;
+    }
+    
+    .hsm-box .box-1 .container .triangulo-3-bg {
+        width: 41%;
+        height: 21%;
+        left: 29%;
+        top: 69%;
+    }
+    
+    .hsm-box .box-1 .container .frase-2-bg {
+        width: 50%;
+        height: 15%;
+        left: 19%;
+        top: 79%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .hsm-box { 
+        padding: 0;
+    }
+    .hsm-box > .container {
+        width: 656px;
+    }
+
+    .hsm-box .box-2 .conteudo .linhas-bg {
+        width: 45px;
+    }
+    .hsm-box .box-2 .conteudo{
+        height: 600px;
+    }
+
+    .hsm-box .box-3 .container{
+        height: 600px;
+    }
+
+    .hsm-box .box-4 .container{
+        height: 354px;
+    }
+
+    .hsm-box .box-3 .titulo {
+        top: 6%;
+    }
+
+    .hsm-box .box-4 .rodape {
+        top: 46%;
+        /* margin-left: -12%; */
+    }
+
+    .hsm-box .box-5 .container {
+        min-height: 557px;
+        height: 557px;
+    }
+
+    .hsm-box .box-1 .container .triangulo-1-bg {
+        width: 28%;
+        height: 55%;
+        left: 50.5%;
+        top: 39%;
+    }
+    
+    .hsm-box .box-1 .container .triangulo-2-bg {
+        width: 28%;
+        height: 55%;
+        left: 21.5%;
+        top: 39%;
+    }
+    
+    .hsm-box .box-1 .container .triangulo-3-bg {
+        width: 55%;
+        height: 21%;
+        left: 22.5%;
+        top: 67%;
+    }
+
+    .hsm-box .box-1 .container .frase-2-bg {
+        width: 50%;
+        height: 15%;
+        left: 7.5%;
+        top: 77%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .hsm-box .box-1 .container {
+        height: 215px;
+    }
+
+    .hsm-box { 
+        padding: 0;
+    }
+    .hsm-box > .container {
+        width: 313px;
+    }
+
+    .hsm-box .box-2 .conteudo .linhas-bg {
+        width: 35px;
+    }
+    .hsm-box .box-2 .conteudo,
+    .hsm-box .box-3 .container{
+        height: 300px;
+    }
+
+    .hsm-box .box-4 .container{
+        height: 154px
+    }
+
+    .hsm-box .box-3 .titulo {
+        position: absolute;
+        top: 10%;
+        width: 90%;
+        left: 6%;
+        /* margin-left: -12%; */
+    }
+
+    .hsm-box .box-4 .rodape {
+        bottom: 10%;
+        /* margin-left: -12%; */
+    }
+
+    .hsm-box .box-5 .container {
+        min-height: 242px;
+        height: 242px;
+    }
+}
