@@ -4,7 +4,7 @@
 <head>
 	<title>Index</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0, min-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<style>
 		html {
 			scroll-behavior: smooth;
@@ -87,9 +87,11 @@
 		</div>
 	</section>
 </body>
-<script src="assets/js/jquery-3.1.0.min.js"></script>
-<script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/jquery.mousewheel.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 	$(document).ready(function () {
@@ -116,7 +118,8 @@
 
 		});
 
-		window.onscroll = function(ev) {
+		$(window).on('scroll',function(ev) {
+			console.log(window.innerHeight + window.scrollY, document.body.offsetHeight);
 			if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
 				try{
 					if(window.parent) {
@@ -126,7 +129,7 @@
 					console.log("Não está na index");
 				}
 			}
-		};
+		});
 	})
 </script>
 
