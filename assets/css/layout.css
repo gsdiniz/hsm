@@ -376,8 +376,8 @@ html, body {
 
 .hsm-box .box-5 .titulo {
     position: absolute;
-    bottom: 14%;
-    width: 85%;
+    top: 30%;
+    width: 88%;
     left: 14%;
     margin-left: -7%;
 }
@@ -451,7 +451,7 @@ html, body {
 
 @media (min-width:1025px) {
     .hsm-box .box-4 .container{
-        height: 563px;
+        height: 569px;
     }
 
     .hsm-box .box-5 .container {
@@ -473,7 +473,7 @@ html, body {
     }
 
     .hsm-box .box-4 .container{
-        height: 503px;
+        height: 504px;
     }
 
     .hsm-box .box-5 .container {
