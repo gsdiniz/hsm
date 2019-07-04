@@ -32,7 +32,7 @@ html, body {
 }
 
 .hsm-box .box-1 .container {
-    height: 800px;
+    height: 740px;
 }
 
 .hsm-box .box-1 .hero-body {
@@ -49,7 +49,7 @@ html, body {
     height: 10%;
     background-repeat: no-repeat;
     left: 3%;
-    top: 5%;
+    top: 6%;
 }
 
 .hsm-box .box-1 .container .frase-bg {
@@ -57,11 +57,11 @@ html, body {
     position: absolute;
     background: url('../../images/frase-hsm.png');
     background-size: contain;
-    width: 70%;
+    width: 75%;
     height: 20%;
     background-repeat: no-repeat;
     left: 15.5%;
-    top: 20%;
+    top: 15%;
 }
 
 .hsm-box .box-1 .container .triangulo-1-bg {
@@ -73,7 +73,7 @@ html, body {
     height: 55%;
     background-repeat: no-repeat;
     left: 50.5%;
-    top: 39%;
+    top: 33%;
 }
 
 .hsm-box .box-1 .container .triangulo-2-bg {
@@ -85,7 +85,7 @@ html, body {
     height: 55%;
     background-repeat: no-repeat;
     left: 21.5%;
-    top: 39%;
+    top: 33%;
 }
 
 .hsm-box .box-1 .container .triangulo-3-bg {
@@ -97,7 +97,7 @@ html, body {
     height: 21%;
     background-repeat: no-repeat;
     left: 22.5%;
-    top: 70%;
+    top: 66%;
 }
 
 .hsm-box .box-1 .container .frase-1-bg {
@@ -109,7 +109,7 @@ html, body {
     height: 14%;
     background-repeat: no-repeat;
     left: 5%;
-    top: 52%;
+    top: 47%;
 }
 
 .hsm-box .box-1 .container .frase-2-bg {
@@ -120,8 +120,8 @@ html, body {
     width: 50%;
     height: 15%;
     background-repeat: no-repeat;
-    left: 10.5%;
-    top: 78.5%;
+    left: 13.5%;
+    top: 77%;
 }
 
 .hsm-box .box-1 .container .frase-3-bg {
@@ -132,8 +132,8 @@ html, body {
     width: 32%;
     height: 21%;
     background-repeat: no-repeat;
-    right: 8%;
-    top: 55%;
+    right: 11%;
+    top: 46%;
 }
 
 .hsm-box .box-2 .hero-body {
@@ -182,7 +182,7 @@ html, body {
 .hsm-box .box-2 .conteudo .n2-bg {
     background: url(../../images/2.png) left top no-repeat;
     background-size: contain;
-    top: 45%;
+    top: 40%;
     width: 8%;
     left: 2%;
 }
@@ -216,7 +216,7 @@ html, body {
 .hsm-box .box-2 .conteudo .seta2-bg {
     background: url(../../images/seta.png) left top no-repeat;
     background-size: contain;
-    top:63%;
+    top:60%;
 }
 
 .hsm-box .box-2 .conteudo .frase-1-bg,
@@ -240,7 +240,7 @@ html, body {
 .hsm-box .box-2 .conteudo .frase-2-bg
 {
     background: url(../../images/frase-2.png) left top no-repeat;
-    top: 46%;
+    top: 41.5%;
     width: 30%;
     height: 12%;
     left: 13%;
@@ -250,7 +250,7 @@ html, body {
 .hsm-box .box-2 .conteudo .frase-3-bg
 {
     background: url(../../images/frase-3.png) left top no-repeat;
-    top: 82%;
+    top: 81%;
     width: 47%;
     height: 13%;
     left: 13%;
@@ -268,8 +268,8 @@ html, body {
 .hsm-box .box-2 .conteudo .icone-1-bg {
     background: url(../../images/icone1.png) left top no-repeat;
     top: 76%;
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     right: 10%;
     background-size: contain;
 }
@@ -277,18 +277,18 @@ html, body {
 .hsm-box .box-2 .conteudo .icone-2-bg {
     background: url(../../images/icone-2.png) left top no-repeat;
     top: 0;
-    width: 177px;
-    height: 150px;
+    width: 197px;
+    height: 170px;
     right: 10%;
     background-size: contain;
 }
 
 .hsm-box .box-2 .conteudo .icone-3-bg {
     background: url(../../images/icone-3.png) left top no-repeat;
-    top: 40%;
-    width: 148px;
-    height: 149px;
-    right: 34%;
+    top: 33%;
+    width: 198px;
+    height: 199px;
+    right: 30%;
     background-size: contain;
 }
 
@@ -312,7 +312,7 @@ html, body {
 
 .hsm-box .box-3 .titulo {
     position: absolute;
-    top: 6%;
+    top: 4%;
     width: 90%;
     left: 6%;
     /* margin-left: -12%; */
@@ -320,7 +320,7 @@ html, body {
 
 .hsm-box .box-3 .rodape {
     position: absolute;
-    bottom: 8%;
+    bottom: 6%;
     width: 75%;
     left: 25%;
     margin-left: -12%;
@@ -349,7 +349,7 @@ html, body {
 
 .hsm-box .box-4 .titulo {
     position: absolute;
-    top: 12%;
+    top: 10%;
     width: 85%;
     left: 8%;
     /* margin-left: -12%; */
@@ -382,9 +382,9 @@ html, body {
 
 .hsm-box .box-5 .titulo {
     position: absolute;
-    top: 30%;
-    width: 88%;
-    left: 14%;
+    top: 31%;
+    width: 78%;
+    left: 18%;
     margin-left: -7%;
 }
 
