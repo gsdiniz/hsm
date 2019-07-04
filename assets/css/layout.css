@@ -3,11 +3,12 @@ html {
     background-image: url('../../images/bg.png');
     background-size: cover;
     /* overflow: hidden; */
+    scroll-behavior: smooth;
 }
 
 html, body {
-    height: 100%;
-    min-height: 100%;
+    /* height: 100%;
+    min-height: 100%; */
 }
 
 /* boxes */
@@ -20,6 +21,7 @@ html, body {
     min-height: 100%;
     height: 100%;
     max-width: 1024px;
+    position: relative;
 }
 
 .hsm-box .box-1 {
@@ -58,7 +60,7 @@ html, body {
     width: 70%;
     height: 20%;
     background-repeat: no-repeat;
-    left: 25%;
+    left: 15.5%;
     top: 20%;
 }
 
@@ -135,8 +137,7 @@ html, body {
 }
 
 .hsm-box .box-2 .hero-body {
-    background: url('../../images/CachedTexturedBitmap_2.png');
-    background-position: center center;
+    background-color: #FEB700;
 }
 
 .hsm-box .box-2 .conteudo {
@@ -358,8 +359,9 @@ html, body {
 
 .hsm-box .box-5 {
     background-image: url('../../images/bg-box-5.png');
+    background-color: #b94080;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: 25px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -370,6 +372,14 @@ html, body {
 
 .hsm-box .box-5 .hero-body {
     padding: 0;
+}
+
+.hsm-box .box-5 .titulo {
+    position: absolute;
+    bottom: 14%;
+    width: 85%;
+    left: 14%;
+    margin-left: -7%;
 }
 
 .hsm-box .box-5 .rodape {
@@ -417,11 +427,14 @@ html, body {
     width: 25px;
     min-height: 100%;
     height: 100%;
-    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hsm-sombra-right {
-    float: right;
+    left: unset;
+    right: 0;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -438,16 +451,16 @@ html, body {
 
 @media (min-width:1025px) {
     .hsm-box .box-4 .container{
-        height: 569px;
+        height: 563px;
     }
 
     .hsm-box .box-5 .container {
-        min-height: 895px;
-        height: 895px;
+        min-height: 896px;
+        height: 896px;
     }
 }
 
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 769px) and (max-width:1024px) {
     .hsm-box .box-1 .container {
         height: 548px;
     }
@@ -504,6 +517,10 @@ html, body {
     }
     .hsm-box > .container {
         width: 656px;
+    }
+
+    .hsm-box .box-1 .container {
+        height: 535px;
     }
 
     .hsm-box .box-2 .conteudo .linhas-bg {
