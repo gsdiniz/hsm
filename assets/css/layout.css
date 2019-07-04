@@ -142,7 +142,7 @@ html, body {
 
 .hsm-box .box-2 .conteudo {
     width: 100%;
-    height: 500px;
+    height: 900px;
     position: relative;
 }
 
@@ -174,31 +174,37 @@ html, body {
 .hsm-box .box-2 .conteudo .n1-bg {
     background: url(../../images/1.png) left top no-repeat;
     background-size: contain;
-    top: 4%;
+    top: 3%;
+    left: 2%;
+    width: 8%;
 }
 
 .hsm-box .box-2 .conteudo .n2-bg {
     background: url(../../images/2.png) left top no-repeat;
     background-size: contain;
-    top:45%;
+    top: 45%;
+    width: 8%;
+    left: 2%;
 }
 
 .hsm-box .box-2 .conteudo .n3-bg {
     background: url(../../images/3.png) left top no-repeat;
     background-size: contain;
     top: 81%;
-    left: 4%;}
+    width: 8%;
+    left: 2%;
+}
 
 .hsm-box .box-2 .conteudo .seta1-bg,
 .hsm-box .box-2 .conteudo .seta2-bg {
     background: url(../../images/1.png) left top no-repeat;
     background-size: contain;
-    width: 30%;
-    height: 15%;
+    width: 26%;
+    height: 11%;
     display: block;
     position: absolute;
     top: 0;
-    left: 7%;
+    left: 6%;
 }
 
 .hsm-box .box-2 .conteudo .seta1-bg {
@@ -210,7 +216,7 @@ html, body {
 .hsm-box .box-2 .conteudo .seta2-bg {
     background: url(../../images/seta.png) left top no-repeat;
     background-size: contain;
-    top:67%;
+    top:63%;
 }
 
 .hsm-box .box-2 .conteudo .frase-1-bg,
@@ -224,7 +230,7 @@ html, body {
 .hsm-box .box-2 .conteudo .frase-1-bg
 {
     background: url(../../images/frase-1.png) left top no-repeat;
-    top: 6%;
+    top: 4.5%;
     width: 45%;
     height: 11%;
     left: 13%;
@@ -234,7 +240,7 @@ html, body {
 .hsm-box .box-2 .conteudo .frase-2-bg
 {
     background: url(../../images/frase-2.png) left top no-repeat;
-    top: 47%;
+    top: 46%;
     width: 30%;
     height: 12%;
     left: 13%;
@@ -244,8 +250,8 @@ html, body {
 .hsm-box .box-2 .conteudo .frase-3-bg
 {
     background: url(../../images/frase-3.png) left top no-repeat;
-    top: 83%;
-    width: 45%;
+    top: 82%;
+    width: 47%;
     height: 13%;
     left: 13%;
     background-size: contain;
@@ -261,7 +267,7 @@ html, body {
 
 .hsm-box .box-2 .conteudo .icone-1-bg {
     background: url(../../images/icone1.png) left top no-repeat;
-    top: 70%;
+    top: 76%;
     width: 150px;
     height: 150px;
     right: 10%;
@@ -271,7 +277,7 @@ html, body {
 .hsm-box .box-2 .conteudo .icone-2-bg {
     background: url(../../images/icone-2.png) left top no-repeat;
     top: 0;
-    width: 150px;
+    width: 177px;
     height: 150px;
     right: 10%;
     background-size: contain;
@@ -279,10 +285,10 @@ html, body {
 
 .hsm-box .box-2 .conteudo .icone-3-bg {
     background: url(../../images/icone-3.png) left top no-repeat;
-    top: 35%;
-    width: 150px;
-    height: 150px;
-    right: 10%;
+    top: 40%;
+    width: 148px;
+    height: 149px;
+    right: 34%;
     background-size: contain;
 }
 
@@ -579,6 +585,18 @@ html, body {
         left: 7.5%;
         top: 77%;
     }
+
+    .hsm-box .box-2 .conteudo .icone-1-bg {
+        width: 130px;
+    }
+    
+    .hsm-box .box-2 .conteudo .icone-2-bg {
+        width: 129px;
+    }
+    
+    .hsm-box .box-2 .conteudo .icone-3-bg {
+        width: 127px;
+    }
 }
 
 
@@ -622,5 +640,17 @@ html, body {
     .hsm-box .box-5 .container {
         min-height: 242px;
         height: 242px;
+    }
+
+    .hsm-box .box-2 .conteudo .icone-1-bg {
+        width: 47px;
+    }
+    
+    .hsm-box .box-2 .conteudo .icone-2-bg {
+        width: 50px;
+    }
+    
+    .hsm-box .box-2 .conteudo .icone-3-bg {
+        width: 47px;
     }
 }
