@@ -105,8 +105,8 @@ html, body {
     position: absolute;
     background: url(../../images/rentabilidade.png);
     background-size: contain;
-    width: 40%;
-    height: 14%;
+    width: 35%;
+    height: 15%;
     background-repeat: no-repeat;
     left: 5%;
     top: 48%;
@@ -117,11 +117,11 @@ html, body {
     position: absolute;
     background: url(../../images/sustentabilidade.png);
     background-size: contain;
-    width: 50%;
+    width: 32%;
     height: 15%;
     background-repeat: no-repeat;
-    left: 11%;
-    top: 77%;
+    left: 33%;
+    top: 79%;
 }
 
 .hsm-box .box-1 .container .frase-3-bg {
@@ -129,11 +129,11 @@ html, body {
     position: absolute;
     background: url(../../images/geracao.png);
     background-size: contain;
-    width: 32%;
-    height: 21%;
+    width: 34%;
+    height: 15%;
     background-repeat: no-repeat;
-    right: 11%;
-    top: 49.4%;
+    right: 5%;
+    top: 48%;
 }
 
 .hsm-box .box-2 .hero-body {
@@ -147,15 +147,16 @@ html, body {
 }
 
 .hsm-box .box-2 .conteudo .linhas-bg {
-    background: url(../../images/NEWhsm-box-2-linha-bg.png), url(../../images/NEWimg11.png) 0 380px, url(../../images/NEWimg14.png) 0 bottom;
+    background: url(../../images/NEWimgTodas.png);
     background-repeat: no-repeat;
     background-size: contain,contain,92px;
-    width: 100%;
+    width: 85%;
     min-height: 100%;
     height: 100%;
     display: block;
     position: absolute;
     top: 0;
+    left: 8%;
 }
 
 .hsm-box .box-2 .conteudo .n1-bg,
@@ -163,8 +164,8 @@ html, body {
 .hsm-box .box-2 .conteudo .n3-bg {
     background: url(../../images/1.png) left top no-repeat;
     background-size: contain;
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    height: 12%;
     display: block;
     position: absolute;
     top: 0;
@@ -174,26 +175,26 @@ html, body {
 .hsm-box .box-2 .conteudo .n1-bg {
     background: url(../../images/NEWimg9.png) left top no-repeat;
     background-size: contain;
-    top: 11%;
-    left: -25px;
-    width: 65%;
+    top: 10%;
+    left: 31px;
+    width: 45%;
 }
 
 .hsm-box .box-2 .conteudo .n2-bg {
     background: url(../../images/NEWimg12.png) left top no-repeat;
     background-size: contain;
-    top: 49%;
-    width: 47%;
+    top: 44%;
+    width: 32%;
     left: unset;
-    right: -16px;
+    right: 5%;
 }
 
 .hsm-box .box-2 .conteudo .n3-bg {
     background: url(../../images/NEWimg15.png) left top no-repeat;
     background-size: contain;
-    top: 87%;
-    width: 60%;
-    left: -25px;
+    top: 82%;
+    width: 47%;
+    left: 40px;
 }
 
 .hsm-box .box-2 .conteudo .seta1-bg,
@@ -268,27 +269,27 @@ html, body {
 
 .hsm-box .box-2 .conteudo .icone-1-bg {
     background: url(../../images/IconAnima3.gif) left top no-repeat;
-    bottom: -9px;
-    width: 190px;
-    height: 190px;
-    right: 10%;
+    bottom: 4%;
+     width: 300px;
+    height: 280px;
+    right: 15%;
     background-size: contain;
 }
 
 .hsm-box .box-2 .conteudo .icone-2-bg {
     background: url(../../images/IconAnima1.gif) left top no-repeat;
-    top: 8%;
-    width: 197px;
-    height: 170px;
-    right: 10%;
+    top: -2%;
+    width: 300px;
+    height: 280px;
+    right: 15%;
     background-size: contain;
 }
 
 .hsm-box .box-2 .conteudo .icone-3-bg {
     background: url(../../images/IconAnima2.gif) left top no-repeat;
-    top: 44%;
-    width: 198px;
-    height: 199px;
+    top: 33%;
+     width: 300px;
+    height: 280px;
     right: unset;
     left: 25%;
     background-size: contain;
@@ -322,16 +323,16 @@ html, body {
 
 .hsm-box .box-3 .titulo2 {
     position: absolute;
-    top: 15%;
-    width: 40%;
-
-    left: 6%;
+    top: 14.7%;
+    width: 43%;
+    height: 5.5%;
+    left: 4.7%;
     /* margin-left: -12%; */
 }
 
 .hsm-box .box-3 .titulo3 {
     position: absolute;
-    top: 19.5%;
+    top: 19.9%;
     width: 45%;
 
     left: 6%;
@@ -410,7 +411,7 @@ html, body {
 
 .hsm-box .box-5 .rodape {
     position: absolute;
-    bottom: 14%;
+    bottom: 11%;
     width: 85%;
     left: 14%;
     margin-left: -7%;
