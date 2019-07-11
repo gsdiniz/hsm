@@ -109,7 +109,7 @@ html, body {
     height: 14%;
     background-repeat: no-repeat;
     left: 5%;
-    top: 47%;
+    top: 48%;
 }
 
 .hsm-box .box-1 .container .frase-2-bg {
@@ -120,7 +120,7 @@ html, body {
     width: 50%;
     height: 15%;
     background-repeat: no-repeat;
-    left: 13.5%;
+    left: 11%;
     top: 77%;
 }
 
@@ -133,7 +133,7 @@ html, body {
     height: 21%;
     background-repeat: no-repeat;
     right: 11%;
-    top: 46%;
+    top: 49.4%;
 }
 
 .hsm-box .box-2 .hero-body {
@@ -142,20 +142,20 @@ html, body {
 
 .hsm-box .box-2 .conteudo {
     width: 100%;
-    height: 900px;
+    height: 1015px;
     position: relative;
 }
 
 .hsm-box .box-2 .conteudo .linhas-bg {
-    background: url(../../images/hsm-box-2-linha-bg.png) left top no-repeat;
-    background-size: cover;
-    width: 65px;
+    background: url(../../images/NEWhsm-box-2-linha-bg.png), url(../../images/NEWimg11.png) 0 380px, url(../../images/NEWimg14.png) 0 bottom;
+    background-repeat: no-repeat;
+    background-size: contain,contain,92px;
+    width: 100%;
     min-height: 100%;
     height: 100%;
     display: block;
     position: absolute;
     top: 0;
-    left: 7%;
 }
 
 .hsm-box .box-2 .conteudo .n1-bg,
@@ -172,27 +172,28 @@ html, body {
 }
 
 .hsm-box .box-2 .conteudo .n1-bg {
-    background: url(../../images/1.png) left top no-repeat;
+    background: url(../../images/NEWimg9.png) left top no-repeat;
     background-size: contain;
-    top: 3%;
-    left: 2%;
-    width: 8%;
+    top: 11%;
+    left: -25px;
+    width: 65%;
 }
 
 .hsm-box .box-2 .conteudo .n2-bg {
-    background: url(../../images/2.png) left top no-repeat;
+    background: url(../../images/NEWimg12.png) left top no-repeat;
     background-size: contain;
-    top: 40%;
-    width: 8%;
-    left: 2%;
+    top: 49%;
+    width: 47%;
+    left: unset;
+    right: -16px;
 }
 
 .hsm-box .box-2 .conteudo .n3-bg {
-    background: url(../../images/3.png) left top no-repeat;
+    background: url(../../images/NEWimg15.png) left top no-repeat;
     background-size: contain;
-    top: 81%;
-    width: 8%;
-    left: 2%;
+    top: 87%;
+    width: 60%;
+    left: -25px;
 }
 
 .hsm-box .box-2 .conteudo .seta1-bg,
@@ -266,8 +267,8 @@ html, body {
 }
 
 .hsm-box .box-2 .conteudo .icone-1-bg {
-    background: url(../../images/icone1.png) left top no-repeat;
-    top: 76%;
+    background: url(../../images/IconAnima3.gif) left top no-repeat;
+    bottom: -9px;
     width: 190px;
     height: 190px;
     right: 10%;
@@ -275,8 +276,8 @@ html, body {
 }
 
 .hsm-box .box-2 .conteudo .icone-2-bg {
-    background: url(../../images/icone-2.png) left top no-repeat;
-    top: 0;
+    background: url(../../images/IconAnima1.gif) left top no-repeat;
+    top: 8%;
     width: 197px;
     height: 170px;
     right: 10%;
@@ -284,11 +285,12 @@ html, body {
 }
 
 .hsm-box .box-2 .conteudo .icone-3-bg {
-    background: url(../../images/icone-3.png) left top no-repeat;
-    top: 33%;
+    background: url(../../images/IconAnima2.gif) left top no-repeat;
+    top: 44%;
     width: 198px;
     height: 199px;
-    right: 30%;
+    right: unset;
+    left: 25%;
     background-size: contain;
 }
 
@@ -314,6 +316,24 @@ html, body {
     position: absolute;
     top: 4%;
     width: 90%;
+    left: 6%;
+    /* margin-left: -12%; */
+}
+
+.hsm-box .box-3 .titulo2 {
+    position: absolute;
+    top: 15%;
+    width: 40%;
+
+    left: 6%;
+    /* margin-left: -12%; */
+}
+
+.hsm-box .box-3 .titulo3 {
+    position: absolute;
+    top: 19.5%;
+    width: 45%;
+
     left: 6%;
     /* margin-left: -12%; */
 }
@@ -398,30 +418,9 @@ html, body {
 
 .hsm-box .box-5 .icone-1 {
     position: absolute;
-    top: 43%;
-    width: 16%;
-    right: 15%;
-}
-
-.hsm-box .box-5 .icone-2 {
-    position: absolute;
-    top: 43%;
-    width: 16%;
-    left: 15%;
-}
-
-.hsm-box .box-5 .icone-3 {
-    position: absolute;
-    top: 45%;
-    width: 16%;
-    left: 32%;
-}
-
-.hsm-box .box-5 .icone-4 {
-    position: absolute;
-    top: 45%;
-    width: 16%;
-    right: 33%;
+    top: 46%;
+    width: 60%;
+    left: 18%;
 }
 /* fim boxes */
 
@@ -463,6 +462,14 @@ html, body {
     .hsm-box .box-5 .container {
         min-height: 896px;
         height: 896px;
+    }
+
+    .hsm-box .box-2 .conteudo {
+        height: 1085px;
+    }
+
+    .hsm-box .box-2 .conteudo .linhas-bg {
+        background-size: contain,contain,106px;
     }
 }
 
@@ -514,6 +521,14 @@ html, body {
         left: 19%;
         top: 79%;
     }
+
+    .hsm-box .box-3 .titulo3 {
+        top: 18.2%;
+    }
+
+    .hsm-box .box-3 .titulo2 {
+        top: 14%;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
@@ -530,10 +545,10 @@ html, body {
     }
 
     .hsm-box .box-2 .conteudo .linhas-bg {
-        width: 45px;
+        /* width: 45px; */
     }
     .hsm-box .box-2 .conteudo{
-        height: 600px;
+        height: 685px;
     }
 
     .hsm-box .box-3 .container{
@@ -586,16 +601,55 @@ html, body {
         top: 77%;
     }
 
+    .hsm-box .box-2 .conteudo .linhas-bg {
+        background: url(../../images/NEWhsm-box-2-linha-bg.png), url(../../images/NEWimg11.png) 0 250px, url(../../images/NEWimg14.png) 0 bottom;
+        background-repeat: no-repeat;
+        background-size: contain,contain,64px;
+    }
+    
+    .hsm-box .box-2 .conteudo .n1-bg {
+        top: 11%;
+        left: -25px;
+        width: 65%;
+    }
+
+    .hsm-box .box-2 .conteudo .n2-bg {
+        top: 49%;
+        width: 47%;
+        left: unset;
+        right: -16px;
+    }
+
+    .hsm-box .box-2 .conteudo .n3-bg {
+        top: 87%;
+        width: 60%;
+        left: -25px;
+    }
+
     .hsm-box .box-2 .conteudo .icone-1-bg {
         width: 130px;
+        bottom: -10%;
+        top: unset;
     }
     
     .hsm-box .box-2 .conteudo .icone-2-bg {
         width: 129px;
+        top: 8%;
     }
     
     .hsm-box .box-2 .conteudo .icone-3-bg {
         width: 127px;
+        right: unset;
+        left: 24%;
+        top: 44%;
+    }
+
+    .hsm-box .box-3 .titulo2 {
+        top: 16.5%;
+    }
+
+    .hsm-box .box-3 .titulo3 {
+        top: 20.8%;
     }
 }
 
@@ -613,7 +667,7 @@ html, body {
     }
 
     .hsm-box .box-2 .conteudo .linhas-bg {
-        width: 35px;
+        /* width: 35px; */
     }
     .hsm-box .box-2 .conteudo,
     .hsm-box .box-3 .container{
@@ -632,6 +686,14 @@ html, body {
         /* margin-left: -12%; */
     }
 
+    .hsm-box .box-3 .titulo2 {
+        top: 19%;
+    }
+
+    .hsm-box .box-3 .titulo3 {
+        top: 21.5%;
+    }
+
     .hsm-box .box-4 .rodape {
         bottom: 10%;
         /* margin-left: -12%; */
@@ -642,15 +704,58 @@ html, body {
         height: 242px;
     }
 
+    .hsm-box .box-2 .conteudo .linhas-bg {
+        background: url(../../images/NEWhsm-box-2-linha-bg.png), url(../../images/NEWimg11.png) 0 100px, url(../../images/NEWimg14.png) 0 220px;
+        background-repeat: no-repeat;
+        background-size: contain,contain,26px;
+    }
+
+    .hsm-box .box-2 .conteudo .n1-bg {
+        top: 9%;
+        left: -9px;
+        width: 65%;
+    }
+
     .hsm-box .box-2 .conteudo .icone-1-bg {
         width: 47px;
+    }
+
+    .hsm-box .box-2 .conteudo .n2-bg {
+        top: 44%;
+        width: 47%;
+        left: unset;
+        right: -9px;
     }
     
     .hsm-box .box-2 .conteudo .icone-2-bg {
         width: 50px;
+        top: 19px;
+    }
+
+    .hsm-box .box-2 .conteudo .n3-bg {
+        top: 81%;
+        width: 60%;
+        left: -9px;
     }
     
     .hsm-box .box-2 .conteudo .icone-3-bg {
         width: 47px;
+        right: unset;
+        left: 27%;
+        top: 40%;
+    }
+
+    .hsm-box .box-5 .icone-1 {
+        top: 56%;
+        width: 44%;
+        left: 25%;
+    }
+
+    .hsm-box .box-5 .titulo {
+        top: 41%;
+    }
+
+    .hsm-box .box-5 .rodape {
+        bottom: 5%;
     }
 }
