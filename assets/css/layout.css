@@ -61,7 +61,7 @@ html, body {
     height: 20%;
     background-repeat: no-repeat;
     left: 15.5%;
-    top: 15%;
+    top: 20%;
 }
 
 .hsm-box .box-1 .container .triangulo-1-bg {
@@ -73,7 +73,7 @@ html, body {
     height: 55%;
     background-repeat: no-repeat;
     left: 50.5%;
-    top: 33%;
+    top: 37%;
 }
 
 .hsm-box .box-1 .container .triangulo-2-bg {
@@ -85,7 +85,7 @@ html, body {
     height: 55%;
     background-repeat: no-repeat;
     left: 21.5%;
-    top: 33%;
+    top: 37%;
 }
 
 .hsm-box .box-1 .container .triangulo-3-bg {
@@ -97,7 +97,7 @@ html, body {
     height: 21%;
     background-repeat: no-repeat;
     left: 22.5%;
-    top: 62%;
+    top: 66%;
 }
 
 .hsm-box .box-1 .container .frase-1-bg {
@@ -109,7 +109,7 @@ html, body {
     height: 15%;
     background-repeat: no-repeat;
     left: 5%;
-    top: 48%;
+    top: 52%;
 }
 
 .hsm-box .box-1 .container .frase-2-bg {
@@ -121,7 +121,7 @@ html, body {
     height: 15%;
     background-repeat: no-repeat;
     left: 33%;
-    top: 75%;
+    top: 79%;
 }
 
 .hsm-box .box-1 .container .frase-3-bg {
@@ -133,7 +133,7 @@ html, body {
     height: 15%;
     background-repeat: no-repeat;
     right: 5%;
-    top: 48%;
+    top: 52%;
 }
 
 .hsm-box .box-2 .hero-body {
@@ -394,7 +394,7 @@ html, body {
 }
 
 .hsm-box .box-5 .container {
-    height: 787px;
+    height: 1050px;
 }
 
 .hsm-box .box-5 .hero-body {
@@ -403,7 +403,7 @@ html, body {
 
 .hsm-box .box-5 .titulo {
     position: absolute;
-    top: 32.5%;
+    top: 26%;
     width: 78%;
     left: 18%;
     margin-left: -7%;
@@ -411,7 +411,7 @@ html, body {
 
 .hsm-box .box-5 .rodape {
     position: absolute;
-    bottom: 11%;
+    bottom: 32%;
     width: 85%;
     left: 14%;
     margin-left: -7%;
@@ -419,10 +419,18 @@ html, body {
 
 .hsm-box .box-5 .icone-1 {
     position: absolute;
-    top: 46%;
+    top: 36.5%;
     width: 60%;
     left: 18%;
 }
+
+.hsm-box .box-5 .iconeFinal {
+    position: absolute;
+    top: 72%;
+    width: 50%;
+    left: 28%;
+}
+
 /* fim boxes */
 
 .hsm-sombra-left,.hsm-sombra-right {
